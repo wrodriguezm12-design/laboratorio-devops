@@ -1,0 +1,21 @@
+cat > index.html <<'EOF'
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi primera página en Kubernetes</title>
+  <style>
+    body { font-family: Arial, sans-serif; background: #0f172a; color: #f8fafc;
+           display: flex; flex-direction: column; align-items: center;
+           justify-content: center; height: 100vh; margin: 0; }
+    h1 { color: #38bdf8; }
+    p { color: #cbd5e1; }
+  </style>
+</head>
+<body>
+  <h1>¡Hola desde Kubernetes! 🚀</h1>
+  <p>Esta página corre en un pod de nginx.</p>
+</body>
+</html>
+EOF
